@@ -16,6 +16,5 @@ public class Application {
         }
 
         sc.close();
-
     }
 }
