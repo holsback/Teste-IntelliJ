@@ -1,8 +1,25 @@
+import java.util.Scanner;
+
 public class Application {
 
     public static void main(String[] args) {
 
-        System.out.println("Hello World!");
+
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("Qual a sua idade? ");
+        int idade = sc.nextInt();
+
+        if (idade >= 18) {
+            System.out.println("Você é maior de idade! ");
+        } else {
+            System.out.println("Você é menor de idade! ");
+        }
+
+
+
+
+        sc.close();
 
     }
 }
